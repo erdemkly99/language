@@ -1,11 +1,11 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 namespace TMPro.Examples{
 public class language : MonoBehaviour {
 	
-		void FixedUpdate(){
+		void Awake(){
 			//Burda kelimeleri tanımla ("türkçesi","ing","eğer eklersen alm fr vb..")
 			Language ("Oyna", "Play");
 			Language ("Ayarlar", "Options");
